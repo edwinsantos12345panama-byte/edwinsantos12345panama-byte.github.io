@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edwin Santos | Portafolio</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --card: #171a23;
+    --accent: #4f8cff;
+    --text: #e6e8ee;
+    --muted: #9aa0ac;
+    --border: #262a35;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  header {
+    padding: 60px 20px 40px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+  }
+  header p {
+    color: var(--muted);
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  section {
+    margin-bottom: 60px;
+  }
+  section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-left: 4px solid var(--accent);
+    padding-left: 12px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 22px;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent);
+  }
+  .card h3 {
+    font-size: 1.15rem;
+    margin-bottom: 8px;
+  }
+  .card p {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-bottom: 14px;
+  }
+  .tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    background: rgba(79,140,255,0.15);
+    color: var(--accent);
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+  }
+  .card a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .card a:hover { text-decoration: underline; }
+  .placeholder {
+    opacity: 0.6;
+    font-style: italic;
+  }
+  footer {
+    text-align: center;
+    padding: 30px 20px;
+    color: var(--muted);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Edwin Santos</h1>
+  <p>Estudiante de Licenciatura en Ingeniería de Sistemas y Computación — Universidad Tecnológica de Panamá, Centro Regional de Chiriquí</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Aplicaciones Android</h2>
+    <p style="color: var(--muted); margin-bottom: 20px;">Proyectos desarrollados en Android Studio (Java) para la materia.</p>
+    <div class="grid">
+
+      <div class="card">
+        <span class="tag">Android · Java</span>
+        <h3>Calculadora</h3>
+        <p class="placeholder">Descripción pendiente — agrega qué hace, funciones especiales o diseño particular.</p>
+        <a href="#">Ver repositorio →</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Android · Java</span>
+        <h3>Sucesos y Más</h3>
+        <p class="placeholder">Aplicación de listado de noticias. Descripción pendiente.</p>
+        <a href="#">Ver repositorio →</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Android · Java</span>
+        <h3>MobilBotica</h3>
+        <p class="placeholder">Descripción pendiente.</p>
+        <a href="#">Ver repositorio →</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Android · Java</span>
+        <h3>Universidad Chiricana</h3>
+        <p class="placeholder">Descripción pendiente.</p>
+        <a href="#">Ver repositorio →</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Android · Java</span>
+        <h3>Chiriquí Eats</h3>
+        <p class="placeholder">Descripción pendiente.</p>
+        <a href="#">Ver repositorio →</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Android · Java</span>
+        <h3>Chinos Café</h3>
+        <p class="placeholder">Descripción pendiente.</p>
+        <a href="#">Ver repositorio →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Redes — Packet Tracer</h2>
+    <p style="color: var(--muted); margin-bottom: 20px;">Topologías y configuraciones de red desarrolladas en Cisco Packet Tracer.</p>
+    <div class="grid">
+      <div class="card">
+        <span class="tag">Redes</span>
+        <h3>Práctica 1</h3>
+        <p class="placeholder">Agrega captura de pantalla o descripción de la topología.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Redes</span>
+        <h3>Práctica 2</h3>
+        <p class="placeholder">Agrega captura de pantalla o descripción de la topología.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Redes</span>
+        <h3>Práctica 3</h3>
+        <p class="placeholder">Agrega captura de pantalla o descripción de la topología.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Redes</span>
+        <h3>Práctica 4</h3>
+        <p class="placeholder">Agrega captura de pantalla o descripción de la topología.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 Edwin Santos — Portafolio académico
+</footer>
+
+</body>
+</html>
