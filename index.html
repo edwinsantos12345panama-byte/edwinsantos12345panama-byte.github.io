@@ -25,24 +25,10 @@
     text-align: center;
     border-bottom: 1px solid var(--border);
   }
-  header h1 {
-    font-size: 2.2rem;
-    margin-bottom: 8px;
-  }
-  header p {
-    color: var(--muted);
-    font-size: 1rem;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  main {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 50px 20px;
-  }
-  section {
-    margin-bottom: 60px;
-  }
+  header h1 { font-size: 2.2rem; margin-bottom: 8px; }
+  header p { color: var(--muted); font-size: 1rem; max-width: 600px; margin: 0 auto; }
+  main { max-width: 1000px; margin: 0 auto; padding: 50px 20px; }
+  section { margin-bottom: 60px; }
   section h2 {
     font-size: 1.5rem;
     margin-bottom: 20px;
@@ -61,19 +47,9 @@
     padding: 22px;
     transition: transform 0.15s ease, border-color 0.15s ease;
   }
-  .card:hover {
-    transform: translateY(-3px);
-    border-color: var(--accent);
-  }
-  .card h3 {
-    font-size: 1.15rem;
-    margin-bottom: 8px;
-  }
-  .card p {
-    color: var(--muted);
-    font-size: 0.92rem;
-    margin-bottom: 14px;
-  }
+  .card:hover { transform: translateY(-3px); border-color: var(--accent); }
+  .card h3 { font-size: 1.15rem; margin-bottom: 8px; }
+  .card p { color: var(--muted); font-size: 0.92rem; margin-bottom: 14px; }
   .tag {
     display: inline-block;
     font-size: 0.75rem;
@@ -83,17 +59,10 @@
     border-radius: 20px;
     margin-bottom: 12px;
   }
-  .card a {
-    color: var(--accent);
-    text-decoration: none;
-    font-size: 0.9rem;
-    font-weight: 600;
-  }
+  .card a { color: var(--accent); text-decoration: none; font-size: 0.9rem; font-weight: 600; }
   .card a:hover { text-decoration: underline; }
-  .placeholder {
-    opacity: 0.6;
-    font-style: italic;
-  }
+  .links-row { display: flex; gap: 14px; margin-top: 10px; }
+  .placeholder { opacity: 0.6; font-style: italic; }
   footer {
     text-align: center;
     padding: 30px 20px;
@@ -170,37 +139,55 @@
         <span class="tag">Redes</span>
         <h3>Taller Práctico 1</h3>
         <p>Diagrama de red LAN correspondiente al plano de la empresa PYME Capacitación Inteligente, S.A.</p>
-        <img src="images/TallerPractico1.png" alt="Topología Capacitación Inteligente" style="width:100%; border-radius:6px; margin-top:6px;">
+        <img src="images/NTallerPractico1.png" alt="Topología Capacitación Inteligente" style="width:100%; border-radius:6px; margin-top:6px;">
+        <div class="links-row">
+          <a href="packet-tracer/TallerPractico1.pkt" download>Descargar .pkt →</a>
+        </div>
       </div>
       <div class="card">
         <span class="tag">Redes</span>
         <h3>Ejercicio Práctico 1</h3>
         <p>Red LAN de conectividad de la Pyme Sucesos.</p>
-        <img src="images/EjercicioPractico1.png" alt="Topología Sucesos" style="width:100%; border-radius:6px; margin-top:6px;">
+        <img src="images/NEjercicioPractico1.png" alt="Topología Sucesos" style="width:100%; border-radius:6px; margin-top:6px;">
+        <div class="links-row">
+          <a href="packet-tracer/EjercicioPractico1.pkt" download>Descargar .pkt →</a>
+        </div>
       </div>
       <div class="card">
         <span class="tag">Redes</span>
         <h3>Ejercicio Práctico 2</h3>
         <p>Red LAN de conectividad de la empresa Mobil Botica, sucursal 1 y sucursal 2.</p>
         <img src="images/EjercicioPractico2.png" alt="Topología Mobil Botica" style="width:100%; border-radius:6px; margin-top:6px;">
+        <div class="links-row">
+          <a href="packet-tracer/EjercicioPractico2.pkt" download>Descargar .pkt →</a>
+        </div>
       </div>
       <div class="card">
         <span class="tag">Redes</span>
         <h3>Parcial 1</h3>
         <p>Red LAN de conectividad de 2 centros universitarios.</p>
         <img src="images/Parcial1.png" alt="Topología centros universitarios" style="width:100%; border-radius:6px; margin-top:6px;">
+        <div class="links-row">
+          <a href="packet-tracer/Parcial1.pkt" download>Descargar .pkt →</a>
+        </div>
       </div>
       <div class="card">
         <span class="tag">Redes</span>
         <h3>Ejercicio Práctico 3</h3>
         <p>Red LAN inalámbrica de la empresa Chiriquí Eats, S.A.</p>
         <img src="images/EjercicioPractico3.png" alt="Topología Chiriquí Eats" style="width:100%; border-radius:6px; margin-top:6px;">
+        <div class="links-row">
+          <a href="packet-tracer/EjercicioPractico3.pkt" download>Descargar .pkt →</a>
+        </div>
       </div>
       <div class="card">
         <span class="tag">Redes</span>
         <h3>Parcial 2</h3>
         <p>Red LAN inalámbrica / cableada de la empresa Chinos Café, S.A.</p>
         <img src="images/Parcial2.png" alt="Topología Chinos Café" style="width:100%; border-radius:6px; margin-top:6px;">
+        <div class="links-row">
+          <a href="packet-tracer/Parcial2.pkt" download>Descargar .pkt →</a>
+        </div>
       </div>
     </div>
   </section>
